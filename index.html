@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Niseko-Ryugaku</title>
+        <link rel="stylesheet" href="niseko-exp-l.css">
+        <link rel="stylesheet" href="niseko-exp-s.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div id="header1">
+                <img src="スクリーンショット 2021-04-26 11.40.10.jpg" alt="#">
+    
+                    <ul id="nav-bar3">
+                        <li><a href="#">ニセコ留学って何？</a></li>
+                        <li><a href="#">年代・目的から探す</a></li>
+                        <li><a href="#">留学体験談</a></li>
+                        <li><a href="#">ブログ</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                <div id="header-access">
+                    <h1>090-3168-5069</h1>
+                </div>
+                <div id="header-btn-ct">
+                    <a href="#" id="download-btn">
+                        無料で資料<br>ダウンロード
+                    </a>
+                    <a href="#" id="line-btn">
+                        LINEで<br>お問い合わせ
+                    </a>
+                </div>
+                
+            </div>
+            <!-- スマホ -->
+            <section class="header__inner">
+            
+                <div class="overlay" id="js-overlay"></div>
+                <div class="hamburger" id="js-hamburger">
+                  <span class="hamburger__lineTop"></span>
+                  <span class="hamburger__lineCenter"></span>
+                  <span class="hamburger__lineBottom"></span>
+                </div>
+                <div class="sideMenu">
+            
+            
+                      <div class="menu-indi">
+                        <a href="#" class="menu-img-a">ニセコ留学って何？</a><br>
+                      </div>
+                      <div class="menu-indi">
+                        <a href="#" class="menu-img-a">年代・目的から探す</a><br>
+                      </div>
+                      <div class="menu-indi">
+                        <a href="#" class="menu-img-a">留学体験談</a><br>
+                      </div>
+                      <div class="menu-indi">
+                        <a href="#" class="menu-img-a">ブログ</a><br>
+                      </div>
+                      <div class="menu-indi">
+                        <a href="#" class="menu-img-a">お問い合わせ</a><br>
+                      </div>
+            
+            
+            
+            
+                </div>
+                </section>
+                <!-- /スマホ -->
+        </header>
+        <body>
+            <main>
+              <div id="exp-container">
+                <div id="exp-left">
+                  
+                  <div id="exp-top">
+                    <h1>ニセコ留学 参加者インタビュー</h1>
+                    <p>ニセコ留学を通して得た経験、何が変わったかなどを紹介しています。</p>
+                  </div>
+                  <div id="exp-left-container">
+                    <div id="exp-left-indi">
+                      <a href="#"></a>
+                      <h1>"ニセコ留学は将来の方向性を考えるのにも現在本当に役立ってます。"</h1>
+                      <hr>
+                      <p>名前：M.O. さん　（女性）</p>
+                      <p>参加時期：１８歳、高３の卒業直前</p>
+                      <p>職業：（当時）高校生　（学校　東京）</p>
+                    </div>
+                    <div id="exp-left-indi">
+                      <a href="#"></a>
+                      <h1>"ニセコ留学、絶対行った方がいいです。"</h1>
+                      <hr>
+                      <p>名前：N.H.さん（男性）（大阪府から参加）</p>
+                      <p>参加時年齢：２１歳　参加時学年（職業）：大学３年生</p>
+                      <p>大学：関西地方（関関同立）</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="exp-right">
+                  <a class="twitter-timeline" data-lang="ja" data-width="900" data-height="400" href="https://twitter.com/niseko_ryugaku?ref_src=twsrc%5Etfw">Tweets by niseko_ryugaku</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </main>
+            <footer>
+              <div class="footer-ct">
+                <div class="footer-1">
+                  <h1>メニュー</h1>
+                  <a href="#">ホーム</a><br>
+                  <a href="#">ニセコ留学って何？</a><br>
+                  <a href="#">年代・目的から探す</a><br>
+                  <a href="#">留学体験談</a><br>
+                  <a href="#">ブログ</a><br>
+                  <a href="#">お問い合わせ</a>
+                </div>
+                <div class="footer-2">
+                  <h1>SNS</h1>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-line"></i></a>
+                </div>
+                <div class="footer-3">
+                  <img src="スクリーンショット 2021-04-26 11.40.10.jpg" alt="#">
+                  <p>000-0000-0000</p>
+                </div>
+              </div>
+              <p class="footer-last">当Webサイトに掲載されている全ての画像・文章・情報等は著作権により保護されております。著作権者の許可なく当Webサイトの内容の全て又は一部をいかなる手段においても複製・転載・流用・転売・複写等することを固く禁じます。</p>
+              
+            </footer>
+            <script>
+                function toggleNav() {
+            const body = document.body;
+            const hamburger = document.getElementById("js-hamburger");
+            const overlay = document.getElementById("js-overlay");
+            hamburger.addEventListener("click", function () {
+              body.classList.toggle("nav-open");
+            });
+            overlay.addEventListener("click", function () {
+              body.classList.remove("nav-open");
+            });
+            }
+          
+            toggleNav();
+            </script>
+        </body>
+        
+    </html>
